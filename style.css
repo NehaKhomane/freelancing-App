@@ -1,0 +1,514 @@
+@import url('https:fonts.googleapis.com/css2?family=Poppins');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+.header{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .parent1{
+    width: 55%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    justify-content: start;
+    
+    align-items: center;
+    background: #1A2E35;
+    
+}
+.header .parent1 .nav{
+    width: 100%;
+    height: 100px;
+    margin: 42px;
+    display: flex;
+    align-items: center;
+
+     gap: 40px;
+    padding: 0px 300px;
+    
+}
+
+.nav  a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+     gap: 30px;
+    
+}
+.nav a:hover{
+    color: #FF4F5A;
+}
+
+
+
+.header .parent1 h1{
+    
+    font-size: 35px;
+    text-align: start;
+}
+.header .parent1 p{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: start;
+    
+}
+.header .parent1 .btn{
+    display: flex;
+    text-align: start;
+    padding: 25px;
+    justify-content: start;
+    gap: 30px;
+    
+}
+.header .parent1 .btn button{
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 15px 15px;
+    justify-content: start;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    transition: all ease-in 0.4s;
+    border: black;
+}
+.header .parent1 .btn button:nth-child(1):hover{
+    background-color: transparent;
+    color: #FF4F5A;
+}
+.header .parent1 .btn button:nth-child(2):hover{
+    background-color: transparent;
+    color: white;
+}
+.header .parent1 .btn :nth-child(1){
+    background: #FF4F5A;
+    color: black;
+    border: 2px solid black;
+}
+.header .parent1 .btn :nth-child(2){
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.header .parent1 .move{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+.header .parent1 .move button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background: #1CBBB4;
+    color: white;border: none;
+}
+.header .parent1 .move button:hover{
+    background-color: #FF4F5A;
+}
+.header .parent2{
+    width: 45%;
+    height: 100%;
+    background: #1CBBB4;
+    padding: 50px 5%;
+}
+.header .parent2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.section1{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    padding: 30px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.section1 .background{
+    margin-top: 50px;
+    width: 40%;
+    height: 100%;
+}
+.section1 .background img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.section1 .content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+.section1 .content h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.section1 .content p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;
+
+}
+.section1 .content .action{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+
+}
+.section1 .content .action button{
+    width: 180px;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    border: none;cursor: pointer;
+    border-radius: 4px;
+    transition: all ease 0.4s;
+}
+.section1 .content .action button:nth-child(1){
+    background: #FF4F5A;
+    color: white;border: 2px solid #FF4F5A;
+
+}
+.section1 .content .action button:nth-child(2){
+    background: #1A2E35;
+    color: white;
+    border: 2px solid #1A2E35;
+
+}
+.section1 .content .action button:nth-child(1):hover{
+    color: #FF4F5A;
+    background: transparent;
+}
+.section1 .content .action button:nth-child(2):hover{
+    color: #1A2E35;
+    background: transparent;
+}
+.text h1{
+    text-align: center;
+    background-color: #1CBBB4;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+.section2{
+    width: 100%;
+    height: 500px;
+    background-color:#1CBBB4;
+    
+    display: grid;
+    margin: 0px 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+    align-items: center;
+    justify-content:justify;
+}
+.section2 .cards{
+    width: 100%;
+    height: 500px;
+    
+    margin: 70px 100px ;
+    padding: 10px;
+
+    display: grid;
+    gap: 20px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.section2 .cards .item h3{
+    color: #fff;
+}
+.about{
+    width: 100%;
+    padding: 50px 8%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.about .background{
+    width: 100%;
+    height: 400px;
+    background: url('about-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about p{
+    padding: 0px 5%;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    justify-content: justify;
+}
+.about button{
+    width: 140px;
+    height: 45px;
+    background: #FF4F5A;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #FF4F5A;
+}
+.about button:hover{
+    background: white;
+    color: #FF4F5A;
+}
+.head h1{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.work{
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    height: 800px;
+    text-align: center;
+    background: white;
+    padding: 5px 20px;
+}
+.work h1{
+    text-align: start;
+    font-size: 35px;
+    color: black;
+    margin: 15px 0px;
+    font-weight: 999;
+
+}
+
+.work .parent {
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    align-items: center;
+    justify-content: start;
+    gap: 55px;
+}
+.work .parent .background{
+    width: 100%;
+    height: 100%;
+    background: url('freelance-img.jpg');
+    background-position: center;
+}
+.work .parent .child{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 60px;
+}
+.work .parent .child .circle{
+    width: 80px;
+    height: 80px;
+    background: #1A2E35;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work .parent .child .content{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.work .parent .child:hover .circle{
+    background: #1CBBB4;
+
+}
+.work .parent .child .circle img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.work .parent .child .content p{
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson;
+    text-align: start;
+
+    
+}
+.work .parent .child .content h2{
+    font-size: 25px;
+    padding: 0px 0px;
+    font-weight: bold;
+    text-align: start;
+    
+
+}
+.footer1{
+    width: 100%;
+    height: 150px;
+    background: #1A2E35;
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer1 .logo{
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    flex-direction: row;
+    align-items: start;
+
+    justify-content: start;
+    gap: 10px;
+    color: #fff;
+
+}
+.footer1 .logo h1{
+    padding: 10px 15px;
+}
+.footer1 .company{
+    width: 100%;
+    height: 70%;
+    display:  flex;
+    gap: 40px;
+border-radius: 50%;
+
+    align-items: center;
+justify-content: center;
+
+
+}
+.footer1 .company a{
+color: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background: #1A2E35;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 70px;
+}
+.footer .element{
+    width: 40%;
+    height: 100%;
+    display:  flex;
+    
+    flex-direction: column;
+    align-items: start;
+
+    justify-content: start;
+    gap: 20px;
+    color: #fff;
+}
+.footer .element h2{
+    font-size: 22px;
+}
+.footer .element p{
+    
+    font-size: 16px;
+    text-align: start;
+}
+.footer .element ul{
+    list-style: none;
+}
+.footer .element ul li{
+    margin: 5px 30px;
+    cursor: pointer;
+    transition: all ease-in 0.35s;
+}
+.footer .element ul li:hover{
+    transform:  translateX(5px);
+    color:lightcoral;
+}
+.element .input-field{
+    display: flex;
+    flex-direction: column;
+}
+.footer .element button{
+    width: 140px;
+    height: 45px;
+    margin-top: 20px;
+    background: #FF4F5A;
+    color: white;
+    font-size: 16px;
+    
+    outline: none;
+    border: 2px solid #fff;
+}
+.footer .element button:hover{
+    background: white;
+    color: #FF4F5A;
+}
+.footer .element .input-field input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    
+}
+.footer3{
+    width: 100%;
+    height: 100px;
+    background: #1A2E35;
+    padding: 20px 17%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+.footer3 .bottom{
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    
+    flex-direction: row;
+    align-items: start;
+
+    justify-content: start;
+    gap: 10px;
+    color: #fff;
+
+    
+}
+.footer3 .bottom a{
+    
+    color: #fff;
+}
+.footer3 .bottom p{
+    font-size: 18px;
+}
